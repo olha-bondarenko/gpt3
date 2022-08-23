@@ -41,6 +41,11 @@
     word-spacing: 2px;
 }
 
+.gpt3__footer-button:hover {
+    border: 1px solid var(--color-button);
+    background: var(--color-button);
+}
+
 .gpt3__footer-links {
     display: flex;
     justify-content: space-between;

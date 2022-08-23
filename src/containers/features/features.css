@@ -31,6 +31,16 @@
     margin-top: 2rem;
 }
 
+.gpt3__features-heading p:hover {
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.gpt3__features-heading p:hover {
+    color: var(--color-white);
+    cursor: pointer;
+}
+
 .gpt3__features-container {
     flex: 1.5;
     display: flex;

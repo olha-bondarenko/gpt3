@@ -10,16 +10,16 @@ const educationText = 'At jointure ladyship an insisted so humanity he. Friendly
 const WhatGPT3 = () => {
   return (
     <div className='gpt3__whatgpt3 section__margin' id='wgpt3'>
-      <div className='gpt3__whatgpt3-feature'>
+      <div className='gpt3__whatgpt3-feature' data-aos="fade-up" data-aos-duration="1000">
         <Feature title='What is GPT-3' text={whatGPT3Text}/>
       </div>
-      <div className='gpt3__whatgpt3-heading'>
+      <div className='gpt3__whatgpt3-heading' data-aos="fade-up" data-aos-duration="500">
         <h1 className='gradient__text'>
         The possibilities are beyond your imagination
         </h1>
         <p>Explore The Library</p>
       </div>
-      <div className='gpt3__whatgpt3-container'>
+      <div className='gpt3__whatgpt3-container' data-aos="fade-up" data-aos-duration="1000">
       <Feature title='Chatbots' text={chatbotText}/>
       <Feature title='Knowledgebase' text={knowledgebaseText}/>
       <Feature title='Education' text={educationText}/>

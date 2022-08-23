@@ -5,20 +5,20 @@ import './brand.css'
 const Brand = () => {
   return (
     <div className='gpt3__brand section__padding'>
-      <div>
+      <div data-aos="fade-left" data-aos-duration="500">
         <img src={google} alt="google" />
       </div>
       <div>
-        <img src={slack} alt="slack" />
+        <img src={slack} alt="slack" data-aos="fade-left" data-aos-duration="1000"/>
       </div>
       <div>
-        <img src={atlassian} alt="atlassian" />
+        <img src={atlassian} alt="atlassian" data-aos="fade-left" data-aos-duration="1500"/>
       </div>
       <div>
-        <img src={dropbox} alt="dropbox" />
+        <img src={dropbox} alt="dropbox" data-aos="fade-left" data-aos-duration="2000"/>
       </div>
       <div>
-        <img src={shopify} alt="shopify" />
+        <img src={shopify} alt="shopify" data-aos="fade-left" data-aos-duration="2500"/>
       </div>
     </div>
   )

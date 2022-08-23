@@ -39,7 +39,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 4rem 0 2rem;
+    margin: 4rem 1rem 2rem;
 }
 
 .gpt3__whatgpt3-heading h1 {
@@ -57,6 +57,10 @@
     line-height: 30px;
     color: var( --color-subtext);
     cursor: pointer;
+}
+
+.gpt3__whatgpt3-heading p:hover {
+    color: var(--color-white);
 }
 
 .gpt3__whatgpt3-container {

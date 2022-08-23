@@ -1,6 +1,7 @@
 .gpt3__header {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 .gpt3__header-content {
@@ -54,17 +55,22 @@
     flex: 0.6;
     width: 100%;
     min-height: 50px;
-    background: #FF4820;
+    background: var(--color-button);
     font-family: var( --font-family);
     font-size: 18px;
     line-height: 27px;
-    color: #FFFFFF;
+    color: var(--color-white);
     cursor: pointer;
     outline: none;
     padding: 0 1rem;
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.gpt3__header-content__input button:hover {
+    background: var(--color-white);
+    color: var(--color-button);
 }
 
 .gpt3__header-content__people {
