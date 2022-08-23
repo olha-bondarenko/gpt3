@@ -31,7 +31,7 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 35px;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .gpt3__blog-container_article-content p:last-child:hover {
@@ -43,7 +43,7 @@
     font-weight: 800;
     font-size: 25px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: var(--color-white);
     margin-bottom: 5rem;
     cursor: pointer;
 }

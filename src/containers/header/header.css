@@ -92,7 +92,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 38px;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .gpt3__header-image {

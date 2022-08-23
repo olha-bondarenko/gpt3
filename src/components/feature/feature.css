@@ -18,7 +18,7 @@
     font-weight: 800;
     font-size: 24px;
     letter-spacing: -0.04em;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .gpt3__features-container__feature-title div{
